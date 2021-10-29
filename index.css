@@ -1,0 +1,54 @@
+table,td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 8px 16px;
+    font-family: 'Ubuntu', sans-serif;
+}
+table {
+    position: relative;
+    transform: translateY(-100%);
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.main {
+    height: 99%;
+    width: 100%;
+    margin: 0px;
+    position: relative;
+}
+h2 {
+    position: relative;
+    text-align: center;
+    top: 1%;
+    transform: translateY(-50%);
+    font-family: 'Ubuntu', sans-serif;
+}
+.content {
+    position: absolute;
+    transform:translateX(-50%);
+    left: 50%;
+    height: 100%;
+}
+h5 {
+    position: relative;
+    top: 40%;
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 15px;
+}
+.but {
+    width: 30px;
+    height: 25px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+}
+.restartbtn {
+    position: relative;
+    top: 25%;
+    font-family: 'Ubuntu', sans-serif;
+    border: 0.5px solid grey;
+    padding-bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
